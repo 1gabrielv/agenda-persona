@@ -16,7 +16,7 @@ public class UsuarioDAO {
         try (Connection conn = ConnectionFactory.getConnection();
             PreparedStatement stmt = conn.prepareStatement(sql)) {
 
-            stmt.setString(1, usuario.getNome());s
+            stmt.setString(1, usuario.getNome());
             stmt.setString(2, usuario.getEmail());
             stmt.setString(3, usuario.getCpf());
             stmt.setString(4, usuario.getSenha());
