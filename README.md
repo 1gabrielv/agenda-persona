@@ -20,3 +20,18 @@ Com base nos requisitos exigidos, o sistema contemplará:
 
 ---
 **Nota:** Este documento serve como guia inicial de arquitetura e será atualizado conforme a evolução dos módulos de back-end e front-end até a entrega final.
+
+## Ferramentas Utilizadas
+
+# Backend
+- Java: principal linguagem do ambiente
+- Maven: ferramenta de build e gerenciamento automáticos
+- Tomcat: servidor usado para rodar o projeto
+- Lombok: lib usada para reduzir código repetido ou comumente necessário (getters, setters e construtores)
+- MySQL: banco de dados relacional
+
+# Frontend
+- HTML5
+- CSS3
+- JavaScript
+- JSP: ferramenta de exposição de interfaces e comunicação entre front e back baseada em Java
