@@ -1,7 +1,5 @@
 package br.com.agendamento.util;
 
-import br.com.agendamento.util.PasswordHash;
-
 // Classe para fins de debug caso os hashs se alterem ao mudar a máquina em que testamos o sistema
 public class GerarHashTeste {
     public static void main(String[] args) throws Exception {
