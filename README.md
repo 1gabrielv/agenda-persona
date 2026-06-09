@@ -1,22 +1,24 @@
 # Projeto: Sistema de Agendamento de Personagens (Party Booking)
 
-## Visão Geral
-Este repositório contém o desenvolvimento do projeto de Web Dev focado na construção de um sistema de agendamento de personagens para eventos. A proposta central é permitir que usuários reservem personagens específicos (ex: super-heróis, princesas) para datas e horários determinados, com a regra de negócio impedindo reservas duplicadas para o mesmo personagem no mesmo período.
+# Como Rodar?
 
-## Estrutura de Desenvolvimento (Em progresso)
-O projeto está sendo estruturado seguindo o padrão **MVC (Model-View-Controller)** para garantir a organização das responsabilidades:
+- Ao baixar o projeto, abra o arquivo deploy.bat (arquivo de execução para Windows) e altere os caminhos das variáveis abaixo conforme a sua máquina.
 
-*   **Model:** Camada destinada à lógica de agendamento e representação dos dados (JavaBeans).
-*   **View:** Interface do usuário desenvolvida em JSP para interação com o catálogo e formulários.
-*   **Controller:** Servlets responsáveis por intermediar as requisições e o fluxo da aplicação.
+    - TOMCAT_HOME
+    - JAVA_HOME
+    - MAVEN_HOME
 
-## Planejamento de Implementação
-Com base nos requisitos exigidos, o sistema contemplará:
+# Ferramentas Utilizadas
 
-*   **Persistência de Dados:** Utilização de banco de dados relacional para armazenamento das reservas e usuários.
-*   **Gestão de Sessão:** Controle de usuários logados via `HttpSession` e uso de Cookies para persistência de preferências locais.
-*   **Segurança:** Validação de dados tanto no cliente (JavaScript) quanto no servidor, incluindo módulo de autenticação para áreas restritas.
-*   **Otimização:** Configuração de cabeçalhos de cache para melhorar o carregamento de recursos estáticos.
+## Backend
+- Java: principal linguagem do ambiente
+- Maven: ferramenta de build e gerenciamento automáticos
+- Tomcat: servidor usado para rodar o projeto
+- Lombok: lib usada para reduzir código repetido ou comumente necessário (getters, setters e construtores)
+- MySQL: banco de dados relacional
 
----
-**Nota:** Este documento serve como guia inicial de arquitetura e será atualizado conforme a evolução dos módulos de back-end e front-end até a entrega final.
+## Frontend
+- HTML5
+- CSS3
+- JavaScript
+- JSP: ferramenta de exposição de interfaces e comunicação entre front e back baseada em Java
